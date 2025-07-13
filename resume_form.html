@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Builder</title>
+</head>
+<body>
+    <h2>Resume Form</h2>
+    <form action="/create-resume" method="POST">
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Skills:</label><br>
+        <input type="text" name="skills" required><br><br>
+
+        <label>Projects:</label><br>
+        <textarea name="projects"></textarea><br><br>
+
+        <button type="submit">Generate Resume</button>
+    </form>
+</body>
+</html>
